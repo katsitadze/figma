@@ -1,0 +1,146 @@
+.body {
+width: 1440px;
+height: 1514px;
+top: -1867px;
+left: -1960px;
+gap: 0px;
+opacity: 0px;
+background-color: black
+
+}
+
+.picture1 img {
+ width: 1440px;
+height: 689px;
+top: 116px;
+gap: 0px;
+opacity: 0px;
+
+}
+.picture1 p {
+
+width: Hug (520px)px;
+height: Hug (162px)px;
+top: 579px;
+left: 192px;
+gap: 16px;
+opacity: 0px;
+}
+
+.button {
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 214px;
+
+position: absolute;
+width: 67px;
+height: 30px;
+left: 1269px;
+top: 43px;
+
+
+}
+.cards {
+width: Fixed (400px)px;
+height: Hug (434px)px;
+top: 959px;
+left: 104px;
+padding: 16px 16px 24px 16px;
+gap: 16px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.latest-news {
+width: 161px;
+height: 34px;
+top: 893px;
+left: 104px;
+gap: 0px;
+opacity: 0px;
+font-family: Helvetica;
+font-size: 28px;
+font-weight: 700;
+line-height: 33.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+
+
+
+.cards {
+    display: flex;  /* Use flexbox to align cards side by side */
+    gap: 20px;  /* Add spacing between the cards */
+    flex-wrap: wrap;  /* Allow cards to wrap to the next line if needed */
+    justify-content: space-around;  /* Align cards evenly */
+  }
+  
+  .card {
+    width: 300px;  /* Set a fixed width for each card */
+    background-color: #f4f4f4;  /* Light background for cards */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: grey;
+  }
+  
+  .card img {
+    width: 368px;
+    height: 230px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    
+  }
+
+  
+  .card .author,
+  .card .title,
+  .card .text,
+  .card .additional-info p {
+   
+width: Fixed (368px)px;
+height: Hug (148px)px;
+gap: 24px;
+opacity: 0px;
+
+  }
+  
+  .card .see-more {
+    
+ width: Fixed (365px)px;
+height: Hug (24px)px;
+gap: 0px;
+justify: space-between;
+opacity: 0px;
+
+  }
+  
+  .card .see-more img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Optional: Add styles for the log in button and picture */
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
